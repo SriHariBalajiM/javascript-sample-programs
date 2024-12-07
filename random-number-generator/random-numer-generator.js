@@ -1,4 +1,4 @@
-// random dice roller
+// random number generator
 
 const randomValue1 =document.getElementById("value1");
 const randomValue2 =document.getElementById("value2");
