@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <form>
+        <h1>Random Password Generator</h1>
+
+        <div class="wrapper">
+        <label for="passwordLength">Enter the password length:</label><br/><br/>
+        <input type="textbox" id="passwordLength" ><br/><br/>
+    </div>
+
+        <p>Please select the options below for creating a random password!!</p>
+
+        <div class="options">
+        <input  type="radio" id="lowercase" >
+        <label  for="lowercase">Include Lower Alphabetical letters</label><br/><br/>
+        </div>
+
+        <div class="options">
+        <input  type="radio" id="uppercase" >
+        <label  for="uppercase">Include Upper Alphabetical letters</label><br/><br/>
+        </div>
+
+        <div class="options">
+            <input  type="radio" id="numbers" >
+            <label  for="numbers">Include Numbers</label><br/><br/>
+        </div>
+
+        <div class="options">
+            <input  type="radio" id="specialChars" >
+            <label  for="specialChars">Include Special Characters</label><br/><br/>
+        </div>
+
+        <div class="footer">
+        <button type="button" onclick="toGenerate()">Generate</button>
+
+        <div class="result">
+        <p>The Random Generated Password is:</p>
+        <p id="result"></p>
+    </div>
+    
+    </div>
+    </form>
+    <script src="random-password-generator.js"></script>
+</body>
+</html>
