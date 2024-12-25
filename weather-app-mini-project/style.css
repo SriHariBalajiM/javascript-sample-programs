@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.cityInput{
+    padding: 10px ;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border:2px solid;
+    min-width: 300px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: hsl(122, 39%, 50%);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(122, 39%, 40%);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    gap:2rem;
+    font-weight: bold;
+    background: linear-gradient(180deg,hsl(210,100%,75%),hsl(40,100%,75%));
+    align-items: center;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    border: none;
+    border-radius: 5px;
+    min-width: 300px;
+}
+
+h1,p{
+    margin: 0px;
+    font-size: 1.5rem;
+}
+
+.cityDisplay, .tempDisplay{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+}
+
+.humdityDisplay{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.descriptionDisplay{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.emojiDisplay{
+    font-size: 6.5rem;
+}
+
+.errorDisplay{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+}
